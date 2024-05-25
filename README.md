@@ -15,6 +15,6 @@ The Multimedia App is a Django-based web application designed to handle multimed
 
 **Technologies Used**
 *Backend:* Django, Django REST Framework
-*Frontend:* HTML, CSS
+Frontend: HTML, CSS, JavaScript
 *Database:*  PostgreSQL
 *Deployment:* Gunicorn, Uvicorn, Render
