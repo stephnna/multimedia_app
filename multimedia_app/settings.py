@@ -20,7 +20,7 @@ SECRET_KEY = env.str('SECRET_KEY', default='django-insecure-&wb65(=w%=h7dv$flb+6
 DEBUG = env.bool('DEBUG', default=False)
 
 # Read ALLOWED_HOSTS from environment variable
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://multimedia-y9dq.onrender.com', '127.0.0.1']
 
 
 # Application definition
