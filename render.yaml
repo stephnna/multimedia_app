@@ -2,7 +2,7 @@ databases:
   - name: multimediadb
     plan: free
     databaseName: multimedia
-    user: mysite
+    user: multimedia
 
 services:
   - type: web
