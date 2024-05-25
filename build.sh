@@ -2,6 +2,9 @@
 # Exit on error
 set -o errexit
 
+# Set Python version
+export PYTHON_VERSION=3.8.10
+
 # Modify this line as needed for your package manager (pip, poetry, etc.)
 pip install -r requirements.txt
 
