@@ -17,10 +17,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env.str('SECRET_KEY', default='django-insecure-&wb65(=w%=h7dv$flb+60qi#0pjztl4x379)p=%qtq_sr6c(la')
 
 # Read DEBUG from environment variable
-DEBUG = env.bool('DEBUG', default=False)
+DEBUG = env.bool('DEBUG', default=True)
 
 # Read ALLOWED_HOSTS from environment variable
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost'])
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['127.0.0.1'])
 
 
 # Application definition
