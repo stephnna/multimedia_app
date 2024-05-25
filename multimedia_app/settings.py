@@ -65,6 +65,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'multimedia_app.wsgi.application'
+ASGI_APPLICATION = 'multimedia_app.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
